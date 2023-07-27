@@ -1,0 +1,91 @@
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #e0e4ce;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 75%;
+	background-color: #2d3839;
+	border-radius: 20px;
+	align-items: center;
+	gap: 10px;
+}
+
+.tasksDivs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	padding-bottom: 20px;
+	width: 100%;
+	align-items: center;
+}
+
+.addTaskDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 70%;
+	height: 40px;
+	
+}
+
+.addTaskButton {
+	width: 20%;
+}
+
+.inputDiv {
+
+	background-color: blue;
+}
+
+input {
+	width: 80%;
+	height: 80%;
+}
+
+.tasksDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 40px;
+	width: 80%;
+	height: 50px;
+	background-color: #6e9987;
+	color: #e0e4ce;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 0;
+	padding-left: 10px;
+}
+
+.textDiv {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.buttonDiv {
+	display: flex;
+	align-items: center;
+}
+
+.buttons {
+	background-color: #114d4d;
+	color: #e0e4ce;
+	font-size: 20px;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.underline {
+	text-decoration: underline;
+}
